@@ -50,4 +50,8 @@ mv filename1 filename2   To rename filename1 to filename2
 
 cp filename1 filename2   Copying filename1 to filename2 
 
+git status            current state of local repo
+
+origin          is Github
+
 
