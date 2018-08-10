@@ -3,8 +3,8 @@ body {
     background: url("../images/full-bloom.png"); 
 }
 
-/*section 1*/
-.header-nav {       /*#header in notes*/
+/*index section 1*/
+.header-nav {       
     background-color: #ffffff;
     border-color: #cccccc;
     border-bottom-style: solid;
@@ -26,7 +26,7 @@ nav {
 }
 
 a {
-    color: #cad9ed;
+    color: #a8a0a5;
 }
 ul {
     margin: 0px;
@@ -47,7 +47,7 @@ li {
 }
 
 
-/*section 2*/
+/*index main section*/
 
 h2{
     color: #4aaaa5;
@@ -72,6 +72,125 @@ h2{
 #border {
     border-color: #dddddd;
     border-top-style: solid;
+    padding: 20px 0px 0px 0px;
 }
 
+p{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 2;
+
+}
+img {
+    float: left;
+    height: 148px;
+    width: 148px;
+    margin: 20px 12px 0px 5px;
+}
+footer {
+    text-align: center;
+    background-color: #666666;
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    border-width: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+}
+
+/*Contact*/
+
+#main_contact {
+    border-color: #dddddd;
+    background-color: #ffffff;
+    width: 750px;
+    display: inline-block;
+    padding: 10px;
+    padding-top: 0px;
+    margin: 0px 0px 0px 80px;
+}
+#contact_nav {
+    margin: 0px 70px 0px 0px;
+}
+
+#contact_h1 {
+    margin: 0px 0px 0px 277px;
+}
+/*form section*/
+form {
+    border-top-style: solid;
+    border-color: #dddddd;
+    border-width: 90%;
+    padding: 5px;
+    padding-top: 20px;
+}
+
+input {
+    width: 99%;
+}
+
+#big_message_box {
+    height: 200px;
+}
+
+#submit_button {
+    width: auto;
+    border: 0;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    margin-top: 15px;
+    font-size: 17px;
+    font-family: Georgia, Times, "Times New Roman", Serif;
+    padding:10 px;
+}
+/*Portfolio*/
+/*Portfolio Nav section*/
+
+#portfolio_nav {
+    margin: 0px 70px 0px 0px;
+}
+#portfolio_h1 {
+    margin: 0px 0px 0px 277px;
+}
+
+/*Portfolio pictures section*/
+
+#main_portfolio {
+    border-color: #dddddd;
+    background-color: #ffffff;
+    width: 750px;
+    display: inline-block;
+    padding: 10px;
+    padding-top: 0px;
+    margin: 0px 0px 0px 80px;
+}
+#pictures {
+    margin: auto;
+    margin-bottom: 250px;
+    border-color: #dddddd;
+    border-top-style: solid;
+}
+
+.portfolio_pictures {
+    height: 200px;
+    width: 250px;
+    margin: 40px 25px 30px 10px;
+    background-color: gray;
+    float: left;
+}
+
+.portfolio_pictures_img {    /*images within portfolio pictures*/
+    height: 200px;
+    width: 250px;
+    margin: 0;
+}
+
+#pictures p {        /*labels of pictures*/
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    margin-top: 140px;
+    padding: 15px 0px 15px 0px;
+}
 
