@@ -69,6 +69,10 @@ h2{
     padding: 10px;
     padding-top: 0px; 
 }
+#bio-image {
+    width: 160px;
+    height: 120px;
+}
 #border {
     border-color: #dddddd;
     border-top-style: solid;
@@ -170,8 +174,8 @@ input {
     margin-bottom: 250px;
     border-color: #dddddd;
     border-top-style: solid;
+    height: 700px;
 }
-
 .portfolio_pictures {
     height: 200px;
     width: 250px;
@@ -190,7 +194,7 @@ input {
     color: white;
     background-color: #4aaaa5;
     text-align: center;
-    margin-top: 140px;
+    margin-top: 170px;
     padding: 15px 0px 15px 0px;
 }
 
